@@ -1,0 +1,17 @@
+					Aula 7					22/07/2017
+***************************************************************************************************************************************************
+					Estruturas Condicionais
+						Parte 1
+SE
+
+Se (expressão) entao
+	Bloco			<-Condicional Simples
+FimSe
+
+Senão
+
+Se (expressão) entao
+	Bloco a
+senao				<-Condicional Composta
+	Bloco b
+FimSe

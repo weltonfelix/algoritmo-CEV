@@ -1,0 +1,109 @@
+Aula 2 	06/07/2017
+***************************************************************************************************************************************************
+					Algoritimos Computacionais
+	São passos a serem seguidos por um MÓDULO PROCESSADOR e seus respectivos USUÁRIOS que, quando executados na ordem certa conseguem REALIZAR determinada TAREFA.
+Exemplos:
+Sistemas de Gestão
+Home Bank
+Redes Sociais
+Vídeos
+Games
+Portáteis
+
+***************************************************************************************************************************************************
+					Algoritimos Computacionais
+
+Lógica de		->	Linguagem de	->	Sistema
+Programação		Programação		Completo
+
+***************************************************************************************************************************************************
+					Ferramentas para representar a 
+					lógica de programação
+	Antigas
+{Fluxograma	Nassi	       }			Pseudocódigo
+{		Sheneidwrman}			Portugol
+
+***************************************************************************************************************************************************
+					Lenda do "Olá Mundo"
+	Se a primeira coisa que você fizer em uma linguagem de programação, não for escrever "Olá Mundo" na tela, você não irá aprender alguma tecnologia futura.
+
+***************************************************************************************************************************************************
+					Ferramentas para o auxilio do Portugol
+		VisuAlg
+
+##############################################################################################
+					Portugol
+
+***************************************************************************************************************************************************
+					Comandos de SÁIDA
+
+Escreva("Qualquer coisa") = Serve para escrever algo
+Escreval("Qualquer coisa") = Ele escreve e pula uma
+
+***************************************************************************************************************************************************
+					Maneiras de executar o código
+1-Algoritimo/executar
+2-"F9"
+3-Clique no botão executar
+
+***************************************************************************************************************************************************
+					Variáveis
+	São etiquetas para definir o que será armazenado em um determinado local da memória.
+Código:
+
+var
+    "Identificador":"Tipo"
+
+EX:
+var
+    msg:caractere
+
+***************************************************************************************************************************************************
+					Identificadores
+	Eles identificam determinadas variáveis
+Regras dos identificadores
+
+1-Deve começar com uma LETRA
+2-Os próximos podem ser LETRAS ou NÚMEROS
+3-NÃO pode ultilizar nenhum SÍMBOLO, exceto"_"
+4-NÃO pode conter ESPAÇOS em branco
+5-NÃO pode conter letras com ACÊNTO
+6-NÃO pode ser uma PALAVRA RESERVADA
+
+Exemplos:		"V" = válido		"x" = Inválido
+
+Nota1 "V"		Média "X"(Acento)
+Salário Bruto "X"(Acento e espaço em branco)	9dade "X" (Inicia com número)
+Algoritimo "X"(Palavra reservada)	Inicio_Algoritimo "V"
+
+***************************************************************************************************************************************************
+					Tipos primitivos
+INTEIRO = Vai permitir que sua variável, guarde apenas, números inteiros. 
+EX: 1	3	-5	198	0
+
+REAL = Números Reais
+EX: 0.5	5.0	9.8	-77.3	3.1415
+
+CARACTERE = Tudo que for colocado entre aspas (pode conter acentos e/ou caracteres especiais)
+EX: "Gustavo"	"Algoritimo"	"123"
+
+LÓGICO = Guarda valores de verdadeiro e falso 
+EX:Verdadeiro	Falso
+
+***************************************************************************************************************************************************
+					Atribuições
+var								simbolo de atribuição:"<-"
+    msg:caractere
+
+    msg <- "Olá mundo"
+
+***************************************************************************************************************************************************
+					Comandos de Saída
+Escreva("msg")
+Ele vai escrever a cadeia de caracteres
+
+Escreva(msg)
+Ele vai escrever o que foi atribuido a variável "msg"
+
+Escreva("mensagem", msg)
+Ele vai escrever a mensagem e o que foi atribuido a variável "msg"

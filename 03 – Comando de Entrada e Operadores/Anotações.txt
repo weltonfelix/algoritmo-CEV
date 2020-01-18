@@ -1,0 +1,23 @@
+Aula 3	07/07/2017
+***************************************************************************************************************************************************
+	Para inserir o algoritimo inicial no VisuAlg, coloque uma "!" e aperte "Ctrl"+"Enter"
+***************************************************************************************************************************************************
+					Comandos de Entrada
+					
+Leia("Variável") = O sitema lê o que o usuário digita
+***************************************************************************************************************************************************
+					Operadores Aritiméticos
+
+					A<-S	B<-2
++ Adição		|A + B	|7
+- Subtração	|A - B	|3
+* Multiplicação	|A * B	|10
+/ Divisão	        	|A / B	|2.5
+\ Divisão Inteira 	|A \ B	|2
+^ Exponenciação	|A ^ B	|25
+% Módulo		|A % B	|
+					Ordem de precedência
+()	|Parênteses		|
+^	|Exponenciação		|
+* /	|Multiplicação / Divisão	|
++ -	|Adição / Subtração		|
